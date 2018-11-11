@@ -12,12 +12,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
   <!-- <link href="https://unpkg.com/bulma-fluent@0.3.13/css/bulma.min.css" rel="stylesheet"> -->
   <link rel="stylesheet" type="text/css" href="css/personal.css">
-  <script async type="text/javascript" src="js/bulma.js"></script>
 </head>
 
 <body>
   <!-- Navigation bar -->
-  <nav class="navbar is-link is-fixed-top">
+  <nav class="navbar is-fixed-top">
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
         <span></span>
@@ -29,33 +28,18 @@
     <div id="navbarExampleTransparentExample" class="navbar-menu">
       <div class="navbar-end">
         <a class="navbar-item" href="#about">
-          <span class="icon">
-            <i class="fas fa-info"></i>
-          </span>
-          <span>About</span>
+          <span>About Me</span>
         </a>
         <a class="navbar-item" href="#services">
-          <span class="icon">
-            <i class="fas fa-bars"></i>
-          </span>
-          <span>Services</span>
+          <span>Experience</span>
         </a>
         <a class="navbar-item" href="#resume">
-          <span class="icon">
-            <i class="fas fa-file-alt"></i>
-          </span>
-          <span>Resume</span>
+          <span>Skills</span>
         </a>
         <a class="navbar-item" href="#portfolio">
-          <span class="icon">
-            <i class="fas fa-th-list"></i>
-          </span>
-          <span>Portfolio</span>
+          <span>My Work</span>
         </a>
         <a class="navbar-item" href="#contact">
-          <span class="icon">
-            <i class="fas fa-envelope"></i>
-          </span>
           <span>Contact</span>
         </a>
       </div>
@@ -63,11 +47,15 @@
   </nav>
 
   <!-- Header -->
-  <section class="hero is-link is-fullheight is-fullheight-with-navbar">
+  <section class="hero is-fullheight landing-page">
+    <div class="overlay"></div>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
     <div class="hero-body">
-      <div class="container">Hello! I am
-        <h1 class="title is-1">
-          Valentin Vucea
+      <div class="container has-text-right">
+        <h1 class="title is-2">
+          Hello there! I am 
+          <span>Valentin Vucea</span>
         </h1>
         <h2 class="subtitle is-3">
           Full Stack Web Developer
@@ -192,6 +180,10 @@
       </p>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="js/particles.min.js"></script>
+  <script async type="text/javascript" src="js/bulma.js"></script>
 </body>
 
 </html>

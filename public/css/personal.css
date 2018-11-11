@@ -40,3 +40,82 @@ th {
   margin-top: 1em;
   margin-bottom: 6em;
 }
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-item {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.navbar-item:hover {
+  border: 0;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-underline-position: under;
+}
+
+a.navbar-item:hover {
+  background: transparent;
+}
+
+.navbar-item:hover span {
+  color: #fff;
+}
+
+.landing-page {
+  background-color: #000000;
+  position: relative;
+}
+
+.landing-page .overlay::after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute; 
+  background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.15;
+  z-index: 1;
+}
+
+.landing-page .hero-body {
+  z-index: 2;
+}
+
+.landing-page .title,
+.landing-page .subtitle,
+.landing-page .container {
+  color: #fff;
+}
+
+.landing-page .title span {
+  font-size: 2.6rem;
+  color: #03C0DA;
+  text-shadow: 1px 1px 0 #000000;
+}
+
+canvas {
+  display: block;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 3;
+}
+
+
